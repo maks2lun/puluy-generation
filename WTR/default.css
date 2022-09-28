@@ -1,0 +1,245 @@
+.inner_copy, .inner_copy a {
+    border: 0;
+    float: right;
+    background: #fff;
+    color: #f00;
+    width: 50%;
+    line-height: 10px;
+    font-size: 10px;
+    margin: -220% 0 0 0;
+    overflow: hidden;
+    padding: 0
+}
+
+
+body {
+    background: #CCC url(img/bg.gif) repeat-y fixed bottom center;
+    color: #333;
+    margin: 20px 0;
+    text-align: center;
+    font: normal 0.76em sans-serif,Arial
+}
+
+.gfx a {
+    background: #000000 url(img/bright_pixel.gif);
+    no-repeat;display: block;
+    height: 240px;
+    width: 470px;
+}
+
+.center {
+    text-align: center
+}
+
+/* header */
+.header {
+    background: #FFF;
+    border-bottom: 1px solid #E5E5E5;
+    font: bold 2.6em Arial;
+    line-height: 3em
+}
+
+/* main */
+.main {
+    background: #fcfcfc;
+    border: 3px double #EEE;
+    border-color: #fcfcfc #fcfcfc #CCC #CFCFCF;
+    margin: 20px auto 4px auto;
+    text-align: left;
+    width: 620px
+}
+
+.container {
+    margin: 10px;
+    background: black
+}
+
+/* menu */
+.menu a {
+    background: #ff9600;
+    border-right: 1px solid #ff9600;
+    border-top: 1px solid #ff9600;
+    color: #ff9600;
+    float: left;
+    padding-top: 4px;
+    width: 149px;
+    height: 36px
+}
+
+.menu a span {
+    padding-left: 6px
+}
+
+.menu a:hover {
+    background: #EEE url(img/bgmenu.gif) repeat-x;
+    color: #555
+}
+
+.menu a#last {
+    width: 150px;
+    border-right: none
+}
+
+/* content */
+.content {
+    background: #F5F5F5;
+    border-top: 1px solid #E5E5E5;
+    clear: both
+}
+
+.content h1 {
+    margin: 0;
+    font: bold 1.1em sans-serif,Arial;
+    color: #666
+}
+
+.content p {
+    margin: 3px 0 6px;
+    color: #666
+}
+
+.item {
+    background: #fcfcfc url(img/bgitem.gif) repeat-x;
+    padding: 10px
+}
+
+/* footer */
+.footer {
+    padding: 0px;
+    background: #F5F5F5;
+    color: #666
+}
+
+.footer .left, .footer .right {
+    padding: 0 0px
+}
+
+.footer .right, .footer .right a {
+    color: #AAA
+}
+
+.footer .right a:hover {
+    color: #444
+}
+
+/* floats */
+.left {
+    float: inline-start;
+    background-size: cover;
+}
+
+.right {
+    float: right
+}
+
+.clearer {
+    clear: both
+}
+
+body {
+    background-image: url(img/pic0.jfif);
+    background-size: 100%;
+}
+
+.main {
+    border-radius: 20px;
+}
+
+
+
+
+
+
+/*button*/
+
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-7 {
+background: linear-gradient(0deg, rgba(251,173,90,30) 0%, rgba(251,75,2,1) 100%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-7 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-7:before,
+.btn-7:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: rgba(251,75,2,1);
+  box-shadow:
+   -7px -7px 20px 0px rgba(253,151,17,.34),
+   -4px -4px 5px 0px rgba(253,151,17,.34),
+   7px 7px 20px 0px rgba(0,0,0,.2),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+  transition: all 0.3s ease;
+}
+.btn-7:before{
+   height: 0%;
+   width: 2px;
+}
+.btn-7:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-7:hover{
+  color: rgba(251,75,2,1);
+  background: transparent;
+}
+.btn-7:hover:before {
+  height: 100%;
+}
+.btn-7:hover:after {
+  width: 100%;
+}
+
+.btn-7 span:before,
+.btn-7 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: rgba(251,75,2,1);
+  box-shadow:
+   -7px -7px 20px 0px rgba(253,151,17,.34),
+   -4px -4px 5px 0px rgba(255,255,255,.9),
+   7px 7px 20px 0px rgba(0,0,0,.2),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+  transition: all 0.3s ease;
+}
+.btn-7 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-7 span:after {
+  height: 2px;
+  width: 0%;
+}
+.btn-7 span:hover:before {
+  height: 100%;
+}
+.btn-7 span:hover:after {
+  width: 100%;
+}
